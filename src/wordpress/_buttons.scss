@@ -1,0 +1,27 @@
+/**
+ * Styles for the WordPress button block.
+ *
+ * Some opinionated styles are commented out below.
+ */
+
+// The following lines will set the outline of a button
+// to be the same color as the text color, if selected.
+//
+// @import 'settings';
+//
+// @each $name, $color in $supported-colors {
+// 	.is-style-outline .wp-block-button__link.has-#{$name}-color {
+// 		border-color: $color;
+//
+// 		&:hover {
+// 			border-color: $color !important;
+// 		}
+// 	}
+// }
+
+// The following line will allow the text in buttons to break to
+// the next line, if necessary.
+//
+// .wp-block-button {
+// 	word-break: initial;
+// }

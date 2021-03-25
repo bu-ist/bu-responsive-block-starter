@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "your-namespace/your-block",
+	"title": "Your Custom Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Does this file actually need to be here?",
+	"textdomain": "your-block",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

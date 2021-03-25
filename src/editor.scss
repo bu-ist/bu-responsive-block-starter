@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$is-editor: true;
+
+/**
+ * Imports helpful dependencies from Responsive Foundation.
+ */
+@import '../node_modules/@bu-ist/burf-tools/tools-webpack';
+
+// The following selectors should be rewritten if everything is working properly.
+@import 'blocks';
+
+// Write your editor-only styles here.
