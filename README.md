@@ -4,6 +4,8 @@ A starter repository for building custom Gutenberg blocks in WordPress with buil
 
 For folks at BU, this repository is based on the work in the [Questrom theme](https://github.com/bu-ist/your-namespace/tree/develop/blocks), which adds custom Gutenberg blocks at the theme level.
 
+**And by the way... it's open source!** You can use this!
+
 ## Is this repository for me?
 
 Good question! Do you like:
