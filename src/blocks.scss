@@ -39,5 +39,5 @@
 /**
  * Automatically import all Sass from all places in the `src` folder.
  */
-@import 'src/wordpress/*.scss';
+@import 'src/core/*.scss';
 @import 'src/**/current/*.scss';
