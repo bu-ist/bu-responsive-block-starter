@@ -1,4 +1,6 @@
-# BU Responsive Block Starter
+# BU Responsive Block Starter (BURBS)
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/1828613/112646259-ad712000-8e1d-11eb-90c5-f1d9e3f7a87c.jpg">
 
 A starter repository for building custom Gutenberg blocks in WordPress with built-in deprecation and a handy folder structure. Leverages the [BU Responsive Foundation](https://github.com/bu-ist/responsive-foundation) library.
 
