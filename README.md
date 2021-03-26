@@ -33,3 +33,9 @@ From there, simply run `npm install`, and then `npm run start`, and go!
 Please take note that this repository makes no assumptions about whether your
 block will be inside a theme or plugin, and it is up to you to move this code 
 to the proper place for your project.
+
+## Checklist
+
+- [ ] Grab a copy of this code and move it to your theme or plugin
+- [ ] Search for `burbs` in the folder and replace it with your namespace
+- [ ] Remove any unnecessary code (variations, core styles, etc)
