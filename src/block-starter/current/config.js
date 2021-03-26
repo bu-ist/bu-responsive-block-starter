@@ -28,7 +28,7 @@ export const config = {
 	 * This is the display title for your block, which can be translated with `i18n` functions.
 	 * The block inserter will show this name.
 	 */
-	title: __( 'Starter Block', 'your-namespace' ),
+	title: __( 'Starter Block', 'burbs' ),
 
 	/**
 	 * This is a short description for your block, can be translated with `i18n` functions.
@@ -36,7 +36,7 @@ export const config = {
 	 */
 	description: __(
 		'A starter block for all blocks in this theme.',
-		'your-namespace'
+		'burbs'
 	),
 
 	/**

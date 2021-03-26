@@ -38,7 +38,7 @@ export default function Markup( attributes ) {
     return (
 		<aside className="your-class-here">
 			<h3>Welcome to the sample block!</h3>
-			<h4>{ __( title, 'your-namespace' ) }</h4>
+			<h4>{ __( title, 'burbs' ) }</h4>
 			This is the sample block. Add plain HTML here, or use attributes to spit out real data.
 			MAJOR CHANGES HERE ASIDE AND STUFF
 			{ content }

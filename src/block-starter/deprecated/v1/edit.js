@@ -47,9 +47,9 @@ export default function Edit( props ) {
     	<>
 	        <Markup {...attributes} />
 			<InspectorControls>
-				<PanelBody title={__('Block Options', 'your-namespace')} key={'display'}>
+				<PanelBody title={__('Block Options', 'burbs')} key={'display'}>
 					<TextControl
-						label={__('Title', 'your-namespace')}
+						label={__('Title', 'burbs')}
 						value={title}
 						onChange={(value) => setAttributes({ title: value })}
 					/>

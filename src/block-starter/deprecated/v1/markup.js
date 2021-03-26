@@ -24,7 +24,7 @@ export default function Markup( props ) {
     return (
 		<div className="your-class-here">
 			<h3>Welcome to the sample block!</h3>
-			<h4>{ __( props.title, 'your-namespace' ) }</h4>
+			<h4>{ __( props.title, 'burbs' ) }</h4>
 			This is the sample block. Add plain HTML here, or use attributes to spit out real data.
 			{ props.content }
 		</div>

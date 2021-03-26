@@ -50,6 +50,6 @@ const blockConfig = {
  *
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
  */
-const starterBlock = registerBlockType( 'your-namespace/starter-block', blockConfig );
+const starterBlock = registerBlockType( 'burbs/starter-block', blockConfig );
 
 export default starterBlock;

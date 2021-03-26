@@ -59,9 +59,9 @@ const CONTENT = [
  * without developing new blocks from scratch.
  */
 const starterVariation = {
-	name: 'r-variation-starter',
-	title: __( 'Variation Block Example', 'your-namespace' ),
-	description: __( 'An example of a block variation.', 'your-namespace' ),
+	name: 'burbs-variation-starter',
+	title: __( 'Variation Block Example', 'burbs' ),
+	description: __( 'An example of a block variation.', 'burbs' ),
 	scope: [ 'inserter' ],
 	attributes: {
 		align: 'full',

@@ -2,7 +2,7 @@
 
 A starter repository for building custom Gutenberg blocks in WordPress with built-in deprecation and a handy folder structure. Leverages the [BU Responsive Foundation](https://github.com/bu-ist/responsive-foundation) library.
 
-For folks at BU, this repository is based on the work in the [Questrom theme](https://github.com/bu-ist/your-namespace/tree/develop/blocks), which adds custom Gutenberg blocks at the theme level.
+For folks at BU, this repository is based on the work in the [Questrom theme](https://github.com/bu-ist/r-questrom/tree/develop/blocks), which adds custom Gutenberg blocks at the theme level.
 
 **And by the way... it's open source!** You can use this!
 
@@ -21,7 +21,7 @@ If you do, this repository is indeed probably for you!
 
 ## What this repository will not give you 
 
-- PHP and server-side rendering of blocks, though it can certainly work with code that does that. Check out the [Questrom Apply block](https://github.com/bu-ist/your-namespace/tree/develop/blocks/src/apply-block) if you want to do that.
+- PHP and server-side rendering of blocks, though it can certainly work with code that does that. Check out the [Questrom Apply block](https://github.com/bu-ist/r-questrom/tree/develop/blocks/src/apply-block) if you want to do that.
 
 ## Installation and Dependencies
 

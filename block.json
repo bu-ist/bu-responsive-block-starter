@@ -1,6 +1,6 @@
 {
 	"apiVersion": 2,
-	"name": "your-namespace/your-block",
+	"name": "burbs/your-block",
 	"title": "Your Custom Block",
 	"category": "widgets",
 	"icon": "smiley",
