@@ -1,0 +1,16 @@
+/**
+ * Generates background color and color classes automatically
+ * based on colors in the `$supported-colors` map in settings.
+ */
+
+@import 'settings';
+
+@each $name, $color in $supported-colors {
+	.has-#{$name}-background-color {
+		background-color: $color;
+	}
+
+	.has-#{$name}-color {
+		color: $color;
+	}
+}

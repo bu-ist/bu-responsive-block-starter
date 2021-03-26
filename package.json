@@ -1,0 +1,31 @@
+{
+	"name": "bu-responsive-block-starter",
+	"version": "0.1.0",
+	"description": "A starter repository for building Gutenberg blocks.",
+	"author": "Ashley Kolodziej",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build ./src/index.js ./src/scripts.js",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start ./src/index.js ./src/scripts.js",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^5.2.2",
+		"@wordpress/blocks": "^6.25.2",
+		"@wordpress/i18n": "^3.17.0",
+		"@wordpress/icons": "^2.9.1"
+	},
+	"devDependencies": {
+		"@bu-ist/burf-tools": "^5.0.0-alpha.3",
+		"@wordpress/babel-preset-default": "^5.0.1",
+		"@wordpress/scripts": "^13.0.0",
+		"babel-plugin-import-glob": "^2.0.0",
+		"node-sass-glob-importer": "^5.3.2",
+		"resolve-url-loader": "^3.1.2",
+		"webpack-merge": "^5.7.3"
+	}
+}
