@@ -41,3 +41,9 @@ to the proper place for your project.
 - [ ] Grab a copy of this code and move it to your theme or plugin
 - [ ] Search for `burbs` in the folder and replace it with your namespace
 - [ ] Remove any unnecessary code (variations, core styles, etc)
+
+## Coming soon
+
+- Support for dynamic blocks
+- A way to easily switch between dynamic and static blocks in the starter block template
+- Recommendations for when to use static vs. dynamic blocks
