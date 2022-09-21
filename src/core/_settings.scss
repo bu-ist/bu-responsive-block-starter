@@ -1,0 +1,32 @@
+/**
+ * If you would like to support color palettes in your blocks,
+ * add the supported colors here.
+ */
+
+$supported-colors: (
+	"your-color": #000000,
+);
+
+/**
+ * Some gently opinionated styles for different alignments.
+ */
+
+.alignfull {
+	clear: both;
+}
+
+.alignleft {
+	+ .has-background,
+	~ :not(p),
+	~ .has-drop-cap {
+		clear: left;
+	}
+}
+
+.alignright {
+	+ .has-background,
+	~ :not(p),
+	~ .has-drop-cap {
+		clear: right;
+	}
+}

@@ -1,0 +1,43 @@
+/**
+ * Write any mixins or support variables you need in this file.
+ * Don't worry about the imports. They're taken care of for you!
+ */
+
+/**
+ * Imports helpful dependencies from Responsive Foundation.
+ */
+@import '~@bu-ist/burf-tools/tools-webpack';
+
+/**
+ * Scopes CSS classes for the WordPress editor only.
+ * @todo Document cases where you might need this, and why.
+ */
+@mixin scope-in-editor( $scoped-selector: null ) {
+	@if variable-exists( is-editor ) {
+		body {
+			@content
+		}
+	} @else if $scoped-selector {
+		#{$scoped-selector} {
+			@content
+		}
+	} @else {
+		@content
+	}
+}
+
+/**
+ * Allows certain CSS to be skipped when editor styles are generated.
+ * @todo Document cases where you might need this, and why.
+ */
+@mixin skip-in-editor {
+	@if not variable-exists( is-editor ) {
+		@content
+	}
+}
+
+/**
+ * Automatically import all Sass from all places in the `src` folder.
+ */
+@import 'src/core/*.scss';
+@import 'src/**/current/*.scss';
